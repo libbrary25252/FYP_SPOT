@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void validate(String userName, String userPassword){
-        if((userName == "20023919") && (userPassword == "Admin")){
+        if((userName == "20023919") && (userPassword == "Admin"))||((userName == "20093274") && (userPassword == "Admin"))||((userName == "20090059") && (userPassword == "Admin"))||((userName == "20091368") && (userPassword == "Admin")){
             Intent intent = new Intent(MainActivity.this, botMain.class);
             startActivity(intent);
         }else{
